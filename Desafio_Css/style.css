@@ -1,0 +1,104 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#container  {
+  background-color: white;
+
+  width: 100vw;
+  height: 100vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#cartao {
+  display: flex;
+  justify-content: space-around;
+  width: 400px;
+  height: 200px;
+  background-color: #454545;
+}
+
+#content {
+  padding: 10px;
+
+  color: #f7f7f7;
+  font-family: 'Roboto', sans-serif;
+
+  width: 60%;
+  height: 100%;
+}
+
+#nome {
+  width: 100%;
+  height: 30%;
+  padding: 10px;
+}
+
+#nome h1 {
+  font-weight: 700;
+  font-size: 20px;
+}
+
+#nome p {
+  font-weight: 100;
+  color: #e0e0e0;
+  font-size: 14px;
+}
+
+#social {
+  width: 100%;
+  height: 70%;
+
+  margin: 0;
+  padding: 10px;
+}
+
+#social ul {
+  list-style-type: none;
+  list-style-position: inside;
+}
+
+#social li {
+  margin: 10px 0;
+}
+
+#social a {
+  font-size: 14px;
+  font-weight: 300;
+  text-decoration: none;
+  color: #00d5ff;
+}
+
+#social #linkedin {
+  list-style-image: url(./img/linkedin-logo.png);
+  margin-left: 1px;
+}
+
+#social #twitter {
+  list-style-image: url(./img/twitter-logo.png);
+}
+
+#social #insta {
+  list-style-image: url(./img/insta-logo.png);
+  margin-left: 1px;
+}
+
+#qrCode {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 30%;
+  height: 100%;
+  background-color: #00d5ff;
+}
+
+#qrCode img {
+  width: 72px;
+  box-shadow: 0 0 15px #454545;
+}
