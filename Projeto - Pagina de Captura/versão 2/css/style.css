@@ -1,0 +1,162 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #222222;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    max-width: 1000px;
+    margin: auto;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    background-color: #3c3c3c;
+    padding: 20px;
+    overflow: hidden;
+}
+
+.title {
+    width: 70%;
+}
+
+h1, h2, h3 {
+    font-size: 24px;
+    color: #ff2971;
+}
+
+p {
+    font-weight: 300;
+    font-size: 16px;
+    color: lightgray;
+}
+
+.mb {
+    margin-bottom: 10px;
+}
+
+.image {
+    width: 30%;
+}
+
+.image img {
+    width: 100%;
+}
+
+.ptb {
+    padding: 100px 0 100px 0;
+}
+
+section {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    padding: 10px;
+    background-color: #3c3c3c;
+}
+
+.message {
+    width: 50%;
+}
+
+.message img {
+    width: 100%;
+}
+
+.formContainer {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    border: 3px solid #ff29707c;
+    border-radius: 4px;
+    background-color: #3f3d5638;
+    padding: 20px;
+    max-width: 40%;
+}
+
+input{
+    width: 100%;
+    padding: 15px;
+    border: none;
+}
+
+input[type="submit"] {
+    color: #ffffff;
+    background-color: #ff2971;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+input[type="submit"]:hover {
+    cursor: pointer;
+    background-color: #df2160;
+}
+
+footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    background-color: #3f3d56;
+    padding: 40px;
+}
+
+.picture {
+    width: 160px;
+
+
+}
+
+
+.description {
+    max-width: 70%;
+
+}
+
+@media screen and (max-width: 650px) {
+
+    .title {
+        width: 100%;
+    }
+    
+    h1, h2, h3 {
+        font-size: 20px;
+    }
+    
+    .image {
+        display: none;
+    }
+    
+    .message {
+        display: none;
+    }
+
+    .ptb {
+        padding: 40px 0;
+    }
+    
+    .formContainer {
+        max-width: 90%;
+    }
+    
+    footer {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .picture {
+        width: 120px;
+        margin-bottom: 20px;
+    }
+    
+    .description {
+        max-width: 100%;
+    }
+}
