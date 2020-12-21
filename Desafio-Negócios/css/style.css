@@ -1,0 +1,378 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    letter-spacing: 1px;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* header page */
+
+header {
+    height: 100vh;
+    background-image: url(../img/victor-freitas-nA0UDNDbxys-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* logo and menu area */
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    max-width: 100%;
+
+    background-color: #0000009c;
+
+    position: sticky;
+    top: 0px;
+
+    padding: 10px 40px;
+}
+
+.logo {
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    padding: 10px;
+}
+
+.t {
+    color:  #1ce830;
+}
+
+small {
+    font-size: 1rem;
+    font-weight: 100;
+    color:  #1ce830;
+}
+
+.h-menu {
+    width: 40%;
+    padding: 10px;
+}
+
+.h-menu ul {
+    float: right;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-weight: 300;
+    font-size: 16px
+}
+
+a {
+    text-decoration: none;
+    color: #1ce830; 
+    padding: 10px;
+    margin-left: 10px;
+}
+
+/* plans */
+
+#plans {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    flex-wrap: wrap;
+    max-width: 100%;
+    padding: 0 50px 150px 50px;
+    background-color: #d6d6d6;
+    color: #454545;
+}
+
+.plan-title {
+    width: 100%;
+    padding: 60px;
+    text-align: center;
+}
+
+/* cards */
+
+.card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 30%;
+    padding: 30px;
+    box-shadow: 10px 10px 20px #1ce830;
+    cursor: no-drop;
+    border-radius: 8px;
+    background-color: #d9d9d9;
+}
+
+.card p {
+
+    padding: 15px;
+    font-size: 45px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.card h2 {
+    padding: 15px;
+    font-size: 45px;
+    color:  #1ce830;
+    font-weight: 700;
+    text-align: center;
+}
+
+/* margin bottom */
+
+.mb {
+    margin-bottom: 10px;
+}
+
+/* newsletter */
+
+#news {
+    max-width: 100%;
+    padding: 80px 10px;
+    background-image: url(../img/brett-jordan-_UcMGQ1hz3Y-unsplash.jpg);
+    background-size: cover;
+}
+
+.formContainer {
+    max-width: 40%;
+    margin: auto;
+    padding: 25px;
+    color: #fff;
+}
+
+.formContainer p {
+    font-weight: 300;
+    color: #fff;
+}
+
+input{
+    width: 100%;
+    padding: 15px;
+    border: none;
+}
+
+input[type="submit"] {
+    color: #ffffff;
+    background-color: #1ce830;
+    font-weight: bold;
+    font-size: 16px;
+    transition: 0.3s;
+}
+
+input[type="submit"]:hover {
+    cursor: pointer;
+    background-color:#18c229;
+}
+
+/* Footer page */
+
+footer {
+    max-width: 100%;
+    background-color: #262626e3;
+    display: flex;
+    color: #d3d3d3;
+}
+
+.info {
+    width: 50%;
+    border-right: 1px solid #d3d3d331;
+}
+
+.f-menu {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.f-menu ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    text-align: center;
+    font-weight: 300;
+    font-size: 12px;
+    padding: 10px;
+    border-bottom: 1px solid #d3d3d331;
+}
+
+.text {
+    width: 100%;
+    padding: 15px 30px;
+    color: #d3d3d3;
+    font-weight: 300;
+}
+
+.tel {
+    color: #d3d3d3;
+    padding: 0;
+    margin: 0;
+}
+
+#about {
+    width: 50%;
+}
+
+.s-menu {
+    width: 100%;
+    margin-top: 10px;
+}
+
+.s-menu ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    text-align: center;
+    font-weight: 300;
+    font-size: 16px;
+    padding: 10px;
+    border-top: 1px solid #d3d3d331;
+}
+
+@media screen and (max-width: 950px)
+{
+    header {
+        background-image: url(../img/samuel-girven-VJ2s0c20qCo-unsplash.jpg);
+    }
+    
+    
+    .header {
+        padding:10px 20px;
+    }
+    
+    .logo {
+        font-size: 14px;
+        padding: 10px;
+    }
+
+    
+    .h-menu ul {
+        font-size: 14px
+    }
+
+    a{
+        padding: 0 5px;
+    }
+
+    /* plans */
+
+    #plans {
+        flex-direction: column;    
+    }
+
+    .plan-title {
+        font-size: 30px;
+    }
+
+    /* cards */
+
+    .card {
+       
+        width: 80%;
+        margin: auto;
+        margin-bottom: 45px;
+        padding: 50px 20px;
+    }
+
+    /* newsletter */
+
+    .formContainer {
+        max-width: 70%;
+    }
+
+    /* Footer page */
+
+    .f-menu ul {
+        font-size: 10px;
+    }
+
+
+    .s-menu ul {
+       
+        font-size: 14px;
+    }
+    
+}
+
+@media screen and (max-width: 750px)
+{
+    /* header page */
+
+    header {
+        height: 100vh;
+        background-image: url(../img/victor-freitas-nA0UDNDbxys-unsplash.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    /* logo and menu area */
+
+    .header {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .h-menu {
+        display: none;
+    }
+
+       /* plans */
+
+       #plans {
+        flex-direction: column;  
+
+    }
+
+    .plan-title {
+        font-size: 20px;
+    }
+
+    /* cards */
+
+    .card {
+        width: 100%;
+        margin-bottom: 45px;
+        padding: 50px 20px;
+    }
+
+    .card p {
+        font-size: 32px;
+    }
+    
+    .card h2 {
+        font-size: 32px;
+    }
+
+    /* newsletter */
+
+    .formContainer {
+        max-width: 100%;
+    }
+
+    /* Footer page */
+    footer {
+        display: flex;
+        flex-direction: column;
+    }
+    .info {
+        width: 100%;
+        border-right: none;
+        border-bottom: 1px solid #d3d3d331;
+    }
+    
+    #about {
+        width: 100%;
+    }
+    
+    .s-menu ul {
+        font-size: 14px;
+
+    }
+
+}
