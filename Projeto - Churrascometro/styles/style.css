@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(../img/background_barbecue.jpg);
+
+}
+
+.container {
+    max-width: 400px;
+    margin: auto;
+    padding: 40px;
+    background-color:#FF6C0A;
+}
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    margin-bottom: 30px;
+    color: #ffffff;
+}
+
+input, button {
+    width: 100%;
+    padding: 10px;
+    display: block;
+    margin-bottom: 15px;
+    border: none;
+}
+
+button {
+    background-color: #4a4a4a;
+    color: #ffffff;
+    font-weight: 700;
+    transition: 0.2s;
+}
+
+button:hover {
+    background-color: #383838;
+    cursor: pointer;
+}
+
+#resultado {
+    padding: 5px;
+    text-align: center;
+}
+
+p {
+    color: #ffffff;
+    margin-bottom: 5px;
+    font-weight: 700;
+}
